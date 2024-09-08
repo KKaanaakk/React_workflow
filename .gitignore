@@ -1,0 +1,66 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node modules
+node_modules/
+Frontend_kanak/node_modules/
+Backend_kanak/node_modules/
+
+# Build directories
+dist/
+build/
+Frontend_kanak/build/
+Frontend_kanak/dist/
+Backend_kanak/build/
+Backend_kanak/dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+Frontend_kanak/.env
+Backend_kanak/.env
+
+# Cache directories
+.cache/
+Frontend_kanak/.cache/
+Backend_kanak/.cache/
+
+# Dependency directories
+Frontend_kanak/package-lock.json
+Backend_kanak/package-lock.json
+Frontend_kanak/yarn.lock
+Backend_kanak/yarn.lock
+
+# Debug files
+npm-debug.log*
+yarn-debug.log*
+
+# IDEs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.pem
+*.key
+*.crt
+
+# React-specific
+frontend/.next/
+frontend/.nuxt/
+frontend/.expo/
+frontend/out/
+frontend/.eslintcache
+
+# Optional npm cache directory
+.npm
